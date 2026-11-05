@@ -24,15 +24,13 @@ import '../styles/global.css';
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="profile-link" href="#about" aria-label="Joaquin Ruiseñor, introduction">
-        <Image src={profilePhoto} alt="" width={36} height={36} densities={[1, 2, 3]} />
-      </a>
+      <a class="monogram" href="#about" aria-label="Joaquin Ruiseñor, introduction"><span aria-hidden="true">//</span> JR</a>
       <a href="#career">Experience <span aria-hidden="true">↓</span></a>
     </header>
     <div class="page">
       <main id="main">
         <section id="about" class="intro" aria-labelledby="intro-title">
-          <div class="initials" aria-hidden="true">JR</div>
+          <Image class="intro-photo" src={profilePhoto} alt="" width={56} height={56} densities={[1, 2, 3]} />
           <h1 id="intro-title">Hey, I’m <span>{site.name}</span>.</h1>
           <p>Chilean Product Manager at Google, based in London.</p>
           <p>AI pilled. Systems mindset. A background in analytics and data.</p>

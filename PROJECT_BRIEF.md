@@ -65,4 +65,4 @@ Joaquin confirms he owns jruisenor.com through Porkbun. Domain is not yet connec
 
 Joaquin approved proceeding with Vercel after reviewing the company logos. Prepare the existing personal_website repository for Vercel and use the owned Porkbun domain jruisenor.com. Projects remain hidden. Production metadata uses the apex canonical URL. Deployment and domain validation are pending.
 
-The header uses Joaquin’s approved [LinkedIn profile photo](https://www.linkedin.com/in/joaquin-ruisenor/). The source JPEG is the 800 × 800 version from LinkedIn’s profile photo viewer.
+The introduction uses Joaquin’s approved [LinkedIn profile photo](https://www.linkedin.com/in/joaquin-ruisenor/) in place of the circular initials badge above his name. The source JPEG is the 800 × 800 version from LinkedIn’s profile photo viewer.
