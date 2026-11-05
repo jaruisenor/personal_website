@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import profilePhoto from '../assets/joaquin-profile.jpg';
 import { site, projects } from '../content/site';
 import '../styles/global.css';
 
@@ -22,7 +24,9 @@ import '../styles/global.css';
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="monogram" href="#about" aria-label="Joaquin Ruiseñor, introduction"><span aria-hidden="true">//</span> JR</a>
+      <a class="profile-link" href="#about" aria-label="Joaquin Ruiseñor, introduction">
+        <Image src={profilePhoto} alt="" width={36} height={36} densities={[1, 2, 3]} />
+      </a>
       <a href="#career">Experience <span aria-hidden="true">↓</span></a>
     </header>
     <div class="page">
